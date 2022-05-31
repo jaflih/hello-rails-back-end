@@ -1,24 +1,83 @@
-# README
+# Hello world App -- Back End
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Description
 
-Things you may want to cover:
+> The HelloWorld app is a mobile web application that return a random greeting.
 
-* Ruby version
+> link to [hello-react-front-end](https://github.com/jaflih/hello-react-front-end)
 
-* System dependencies
+## Built With
 
-* Configuration
+- Ruby on Rails
+- Postgres
+- React
 
-* Database creation
+## Getting Started
 
-* Database initialization
+### Get a local copy
 
-* How to run the test suite
+- git clone the project
 
-* Services (job queues, cache servers, search engines, etc.)
+```bash
+git clone https://github.com/jaflih/hello-rails-back-end.git
+```
 
-* Deployment instructions
+```
+cd hello-rails-back-end
+```
 
-* ...
+### Install the app
+
+```
+bundle install
+rails db:migrate
+```
+
+### Run the seeder
+
+```
+rails db:seed
+```
+
+### Run the app
+
+- To run the server
+
+```
+rails s
+```
+
+- To run the webpack server
+
+```
+./bin/webpack-dev-server
+```
+
+```
+Visit http://localhost:3000/ in your browser.
+```
+
+```
+Visit the API :  http://localhost:3000/api/v1/greetings in your browser.
+```
+
+## Authors
+
+👤 **Jaflih**
+
+- GitHub: [@githubhandle](https://github.com/jaflih)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/jaflih/)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
